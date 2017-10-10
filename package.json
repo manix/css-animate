@@ -1,0 +1,19 @@
+{
+  "name": "css-animate",
+  "version": "1.0.0",
+  "description": "animate.css helper",
+  "main": "src/helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manix/css-animate.git"
+  },
+  "author": "Manix <admin@manix.info>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/manix/css-animate/issues"
+  },
+  "homepage": "https://github.com/manix/css-animate#readme"
+}
