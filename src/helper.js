@@ -14,7 +14,7 @@ exports.default = function (element, animation, duration, delay) {
             if (delay) {
                 element.style.animationDelay = delay + "s";
             }
-
+            
             setTimeout(function () {
 
                 if (exports.hasClass(element, "animated") && exports.hasClass(element, animation)) {
@@ -46,6 +46,8 @@ exports.hasClass = function(element, className) {
 exports.clean = function(element, animation) {
     exports.removeClass(element, "animated");
     exports.removeClass(element, animation);
+    element.style.animationDuration = "";
+    element.style.animationDelay = "";
 
     return element;
 }

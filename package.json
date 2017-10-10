@@ -1,6 +1,6 @@
 {
   "name": "css-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "animate.css helper",
   "main": "src/helper.js",
   "scripts": {
