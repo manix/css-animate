@@ -13,6 +13,9 @@ A small helper that eases programmatic use of [animate.css](https://daneden.gith
 
     animate(element, "bounce").then(console.log);
     
+    // animate forever
+    animate(element, "tada", Infinity);
+    
 ## API
 
     animate(element, animation, duration, delay);
