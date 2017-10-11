@@ -8,7 +8,7 @@ A small helper that eases programmatic use of [animate.css](https://daneden.gith
     
 ## Usage
 
-    var animate = require("css-animate");
+    var animate = require("css-animate").default;
     var element = // HTMLElement
 
     animate(element, "bounce").then(console.log);
